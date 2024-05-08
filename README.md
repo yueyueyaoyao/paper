@@ -38,10 +38,10 @@ cd /home/YSXT/
    
 
 
-若参考，请标注以下参考论文：
+**若参考，请标注以下参考论文：**
 
 [1] Wang Pengyue, Guo Maozu, Cao Yingeng, Hao Shimeng, Zhou Xiaoping & Zhao Lingling. Pedestrian wind flow prediction using spatial-frequency generative adversarial network[J]. Building Simulation, 2023: 1-16.
 
 [2] Wang Pengyue, Guo Maozu, Han Yunsong, Zhao Lingling, Zhou Xiaoping & Zhang Dayu. Ensemble learning-based hierarchical retrieval of similar cases for site planning[J]. Journal of Computational Design and Engineering, 2021, 8(6): 1548-1561. 
 
-若合作交流，请联系949506272@qq.com
+**若合作交流，请联系949506272@qq.com**
