@@ -22,9 +22,6 @@ fream_reward = 0
 count = 0
 
 # 地块内初始建筑物坐标
-# l_real = [[0.55, 0.7], [0, 0.3],  [-0.75, -0.0], [-0.7, -0.5], [-0.35, -0.9], [0.43, -0.7],[0.43, -0.3]]
-
-# 新调的
 l_real = [[0.53, 0.3], [0, 0.3],  [-0.7, -0.0], [-0.7, -0.5], [0, -0.8], [0.53, -0.6],[0.53, -0.2]]
 
 
@@ -137,7 +134,7 @@ class Scenario(BaseScenario):
         global fps
         global l
 
-        l = [[0.55, 0.3], [0, 0.3],  [-0.7, -0.0], [-0.7, -0.5], [0, -0.8], [0.53, -0.6],[0.53, -0.2]]
+        l = [[0.53, 0.3], [0, 0.3],  [-0.7, -0.0], [-0.7, -0.5], [0, -0.8], [0.53, -0.6],[0.53, -0.2]]
 
         reward_num = num
         for i, agent in enumerate(world.agents):
@@ -244,15 +241,15 @@ class Scenario(BaseScenario):
         land_vertex = [[-0.8, -0.7], [-0.8, 0.7], [0.8, 0.7], [0.8, -0.7],[-0.8, -0.7]][::-1]
 
         # 绿地顶点（圆形）
-        center = [0,-0.1]  # center point
-        rad = 0.2
-        sep = 2 * math.pi / 60  # sep use 60 angle
-        point = []
-        for angle in range(61):
-            x = center[0] + rad * math.cos(sep * angle)
-            y = center[1] + rad * math.sin(sep * angle)
-            point.append([round(x, 3), round(y, 3)])  # round function  save float with  x.xxx
-        green_vertex = point
+        # center = [0,-0.1]  # center point
+        # rad = 0.2
+        # sep = 2 * math.pi / 60  # sep use 60 angle
+        # point = []
+        # for angle in range(61):
+        #     x = center[0] + rad * math.cos(sep * angle)
+        #     y = center[1] + rad * math.sin(sep * angle)
+        #     point.append([round(x, 3), round(y, 3)])  # round function  save float with  x.xxx
+        # green_vertex = point
 
         # ================================================退让边界========================================================
         ##当前建筑物的四个顶点有没有出边界
@@ -273,7 +270,6 @@ class Scenario(BaseScenario):
         bound_res = bound_res + inter_land * 150 * 150
 
         # ================================================防火间距========================================================
-        # 算当前建筑物的防火禁入区域，依次保证防火禁入，就可以保证全部布局防火合理吧？？
         rad = 0.09
         sep = 2 * math.pi / 12  # 以30度为切分，分12份
         fire_area = []  # 当前建筑物的防火区域
@@ -302,7 +298,7 @@ class Scenario(BaseScenario):
                 [other_leftUpArray[i], other_leftDownArray[i], other_rightDownArray[i], other_rightUpArray[i]])).area
         fire = fire - inter_area * 150 * 150
 
-        # ================================================绿地边界========================================================
+        # ================================================禁入边界========================================================
         # 当前建筑物的四个顶点不准禁入绿地边界
         # green_path = mpltPath.Path(green_vertex)    # matplotlib.path 计算多个点在不在某一多边形内，速度较快
         # green_inside = green_path.contains_points(cur_l,radius=1e-9)
@@ -311,11 +307,11 @@ class Scenario(BaseScenario):
         # else:                          # 有一个点不在多边形内
         #     bound_res = bound_res - 0
 
-        inter_green = 0
-        for i in range(len(l)):
-            inter_green += Polygon(green_vertex).intersection(Polygon(
-                [leftUpArray[i], leftDownArray[i], rightDownArray[i], rightUpArray[i]])).area
-        bound_green = bound_green - inter_green * 150 * 150
+        # inter_green = 0
+        # for i in range(len(l)):
+        #     inter_green += Polygon(green_vertex).intersection(Polygon(
+        #         [leftUpArray[i], leftDownArray[i], rightDownArray[i], rightUpArray[i]])).area
+        # bound_green = bound_green - inter_green * 150 * 150
 
         # ================================================日照约束========================================================
 
