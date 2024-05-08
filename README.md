@@ -19,7 +19,7 @@ cd /home/YSXT/
 ```
 4. 打开浏览器输入http://10.100.21.209:8080/ 即可访问。
 
-![image](https://github.com/yueyueyaoyao/paper/blob/main/images/The assisted generation.jpg)
+![image](https://github.com/yueyueyaoyao/paper/blob/main/images/The_assisted_generation.jpg)
 
 
 5. 在需要运行项目第二部分（自动生成）时，运行：
@@ -28,7 +28,7 @@ cd /home/YSXT/
 ```
 6. 打开浏览器输入http://10.100.21.209:8080/ 即可访问。
 
-![image](https://github.com/yueyueyaoyao/paper/blob/main/images/The automatic generation.jpg)
+![image](https://github.com/yueyueyaoyao/paper/blob/main/images/The_automatic_generation.jpg)
 
 7. 返回Xshell, 按ctrl+c关闭当前任务，避免占用5000端口
 
