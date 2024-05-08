@@ -19,7 +19,7 @@ cd /home/YSXT/
 ```
 4. 打开浏览器输入http://10.100.21.209:8080/ 即可访问。
 
-<img src="https://github.com/yueyueyaoyao/paper/blob/main/images/The_assisted_generation.jpg" width=30%>
+<img src="https://github.com/yueyueyaoyao/paper/blob/main/images/The_assisted_generation.jpg" width=50%>
 
 
 5. 在需要运行项目第二部分（自动生成）时，运行：
@@ -28,11 +28,14 @@ cd /home/YSXT/
 ```
 6. 打开浏览器输入http://10.100.21.209:8080/ 即可访问。
 
-![image](https://github.com/yueyueyaoyao/paper/blob/main/images/The_automatic_generation.jpg)
+<img src="https://github.com/yueyueyaoyao/paper/blob/main/images/The_automatic_generation.jpg" width=50%>
 
 7. 返回Xshell, 按ctrl+c关闭当前任务，避免占用5000端口
 
    
 
-若参考，请标注参考论文
-Pedestrian wind flow prediction using spatial-frequency generative adversarial network[J]. Building Simulation, 2023: 1-16．
+
+若参考，请标注以下参考论文：
+[1] Wang Pengyue, Guo Maozu, Cao Yingeng, Hao Shimeng, Zhou Xiaoping & Zhao Lingling. Pedestrian wind flow prediction using spatial-frequency generative adversarial network[J]. Building Simulation, 2023: 1-16.
+[2] Wang Pengyue, Guo Maozu, Han Yunsong, Zhao Lingling, Zhou Xiaoping & Zhang Dayu. Ensemble learning-based hierarchical retrieval of similar cases for site planning[J]. Journal of Computational Design and Engineering, 2021, 8(6): 1548-1561. 
+若合作交流，请联系949506272@qq.com
