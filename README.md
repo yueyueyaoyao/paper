@@ -6,8 +6,11 @@
 
 ## 项目启动方法
 软件环境准备：Xshell，Xmanager
+
 网络环境：北京建筑大学校园网
+
 启动步骤：
+
 1. 启动Xshell和Xmanager，在Xshell里新建会话，主机号为10.100.21.209，端口号为22。根据账号密码连入服务器。
 2. 在普通用户下（非root）进入/home/YSXT/ 文件夹：
 ```Python
@@ -36,6 +39,9 @@ cd /home/YSXT/
 
 
 若参考，请标注以下参考论文：
+
 [1] Wang Pengyue, Guo Maozu, Cao Yingeng, Hao Shimeng, Zhou Xiaoping & Zhao Lingling. Pedestrian wind flow prediction using spatial-frequency generative adversarial network[J]. Building Simulation, 2023: 1-16.
+
 [2] Wang Pengyue, Guo Maozu, Han Yunsong, Zhao Lingling, Zhou Xiaoping & Zhang Dayu. Ensemble learning-based hierarchical retrieval of similar cases for site planning[J]. Journal of Computational Design and Engineering, 2021, 8(6): 1548-1561. 
+
 若合作交流，请联系949506272@qq.com
