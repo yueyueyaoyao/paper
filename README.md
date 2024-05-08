@@ -41,7 +41,6 @@ cd /home/YSXT/
 * ```./reward.py```: core code for the automatic generation algorithm  <br />
 * ```./SFGAN.png```: Pedestrian wind flow prediction model structure <br />
 * ```./SFGAN_model.py```: core code for the SFGAN algorithm <br />
- <br />
 
 ## Paper citation <br />
 If you used this code for your experiments or found it helpful, consider citing the following paper:  <br />
