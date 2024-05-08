@@ -12,9 +12,11 @@
 2. 在普通用户下（非root）进入/home/YSXT/ 文件夹：
 ```Python
 cd /home/YSXT/
+```
 3. 在需要运行项目第一部分（相似案例检索及推荐）时，运行：
 ```
 ./1.start_calculate.sh
+```
 
 
 若参考，请标注参考论文
