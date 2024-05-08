@@ -19,7 +19,7 @@ cd /home/YSXT/
 ```
 4. 打开浏览器输入http://10.100.21.209:8080/ 即可访问。
 
-![image](https://github.com/yueyueyaoyao/paper/blob/main/images/The_assisted_generation.jpg)
+<img src="https://github.com/yueyueyaoyao/paper/blob/main/images/The_assisted_generation.jpg" width=30%>
 
 
 5. 在需要运行项目第二部分（自动生成）时，运行：
