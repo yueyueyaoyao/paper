@@ -39,9 +39,9 @@ cd /home/YSXT/
 <br />
 
 ## Code structure <br />
-```./reward.py```: core code for the automatic generation algorithm
-```./SFGAN.png```: Pedestrian wind flow prediction model structure
-```./SFGAN_model.py```: core code for the SFGAN algorithm
+```./reward.py```: core code for the automatic generation algorithm  <br />
+```./SFGAN.png```: Pedestrian wind flow prediction model structure <br />
+```./SFGAN_model.py```: core code for the SFGAN algorithm <br />
  <br />
 
 
