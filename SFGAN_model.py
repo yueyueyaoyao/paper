@@ -50,7 +50,6 @@ def find_fake_freq(im, gauss_kernel, index=None):
     low_freq = gaussian_blur(im, gauss_kernel, padding=padding)
     # 转换为灰度
     im_gray = im[:, 0, ...] * 0.299 + im[:, 1, ...] * 0.587 + im[:, 2, ...] * 0.114
-    # 未知
     im_gray = im_gray.unsqueeze_(dim=1).repeat(1, 3, 1, 1)
     # 用灰度图片进行一次低频的过滤
     low_gray = gaussian_blur(im_gray, gauss_kernel, padding=padding)
