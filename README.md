@@ -8,12 +8,13 @@
 软件环境准备：Xshell，Xmanager
 网络环境：北京建筑大学校园网
 启动步骤：
-1. 启动Xshell和Xmanager，在Xshell里新建会话，主机号为10.100.21.209，端口号为22。根据账号密码
-连入服务器
+1. 启动Xshell和Xmanager，在Xshell里新建会话，主机号为10.100.21.209，端口号为22。根据账号密码连入服务器
 2. 在普通用户下（非root）进入/home/YSXT/ 文件夹：
-   cd /home/YSXT/
-4. 在需要运行项目第一部分（相似案例检索及推荐）时，运行：
-  ./1.start_calculate.sh
+```Python
+cd /home/YSXT/
+3. 在需要运行项目第一部分（相似案例检索及推荐）时，运行：
+```
+./1.start_calculate.sh
 
 
 若参考，请标注参考论文
