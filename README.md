@@ -36,7 +36,6 @@ cd /home/YSXT/
 7. 返回Xshell, 按ctrl+c关闭当前任务，避免占用5000端口
 
 <br />
-<br />
 
 ## Code structure <br />
 ```./reward.py```: core code for the automatic generation algorithm  <br />
@@ -44,9 +43,8 @@ cd /home/YSXT/
 ```./SFGAN_model.py```: core code for the SFGAN algorithm <br />
  <br />
 
-
 ## Paper citation <br />
-**若参考，请标注以下参考论文：**  <br />
+If you used this code for your experiments or found it helpful, consider citing the following paper:  <br />
 [1] Wang Pengyue, Guo Maozu, Cao Yingeng, Hao Shimeng, Zhou Xiaoping & Zhao Lingling. Pedestrian wind flow prediction using spatial-frequency generative adversarial network[J]. Building Simulation, 2023: 1-16. <br />
 [2] Wang Pengyue, Guo Maozu, Han Yunsong, Zhao Lingling, Zhou Xiaoping & Zhang Dayu. Ensemble learning-based hierarchical retrieval of similar cases for site planning[J]. Journal of Computational Design and Engineering, 2021, 8(6): 1548-1561. 
 
